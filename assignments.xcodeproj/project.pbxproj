@@ -14,6 +14,13 @@
 		848ABCCF1FD88CC7000FAAAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848ABCCD1FD88CC7000FAAAB /* LaunchScreen.storyboard */; };
 		848ABCDA1FD88CC7000FAAAB /* assignmentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ABCD91FD88CC7000FAAAB /* assignmentsTests.swift */; };
 		848ABCE51FD88CC7000FAAAB /* assignmentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ABCE41FD88CC7000FAAAB /* assignmentsUITests.swift */; };
+		848ABCF41FD88CE3000FAAAB /* student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ABCF31FD88CE3000FAAAB /* student.swift */; };
+		848ABCF61FD88D2D000FAAAB /* studentsDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ABCF51FD88D2D000FAAAB /* studentsDB.swift */; };
+		848ABCF81FD88F76000FAAAB /* masterStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ABCF71FD88F76000FAAAB /* masterStudent.swift */; };
+		848ABCFA1FD89358000FAAAB /* phdStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848ABCF91FD89358000FAAAB /* phdStudent.swift */; };
+		84B722C91FD9CF4D00151EB0 /* ViewControllerUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B722C81FD9CF4D00151EB0 /* ViewControllerUITableViewCell.swift */; };
+		84B722CC1FD9DC6C00151EB0 /* NewStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B722CB1FD9DC6C00151EB0 /* NewStudentViewController.swift */; };
+		84B722CE1FD9DC9D00151EB0 /* StudenDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B722CD1FD9DC9D00151EB0 /* StudenDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		848ABCE01FD88CC7000FAAAB /* assignmentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = assignmentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		848ABCE41FD88CC7000FAAAB /* assignmentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignmentsUITests.swift; sourceTree = "<group>"; };
 		848ABCE61FD88CC7000FAAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848ABCF31FD88CE3000FAAAB /* student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = student.swift; sourceTree = "<group>"; };
+		848ABCF51FD88D2D000FAAAB /* studentsDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentsDB.swift; sourceTree = "<group>"; };
+		848ABCF71FD88F76000FAAAB /* masterStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = masterStudent.swift; sourceTree = "<group>"; };
+		848ABCF91FD89358000FAAAB /* phdStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phdStudent.swift; sourceTree = "<group>"; };
+		84B722C81FD9CF4D00151EB0 /* ViewControllerUITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUITableViewCell.swift; sourceTree = "<group>"; };
+		84B722CB1FD9DC6C00151EB0 /* NewStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStudentViewController.swift; sourceTree = "<group>"; };
+		84B722CD1FD9DC9D00151EB0 /* StudenDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudenDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +111,9 @@
 		848ABCC31FD88CC7000FAAAB /* assignments */ = {
 			isa = PBXGroup;
 			children = (
+				84B722CA1FD9D2A800151EB0 /* ViewControllers */,
+				848ABCF21FD88CD1000FAAAB /* Students */,
 				848ABCC41FD88CC7000FAAAB /* AppDelegate.swift */,
-				848ABCC61FD88CC7000FAAAB /* ViewController.swift */,
 				848ABCC81FD88CC7000FAAAB /* Main.storyboard */,
 				848ABCCB1FD88CC7000FAAAB /* Assets.xcassets */,
 				848ABCCD1FD88CC7000FAAAB /* LaunchScreen.storyboard */,
@@ -123,6 +138,28 @@
 				848ABCE61FD88CC7000FAAAB /* Info.plist */,
 			);
 			path = assignmentsUITests;
+			sourceTree = "<group>";
+		};
+		848ABCF21FD88CD1000FAAAB /* Students */ = {
+			isa = PBXGroup;
+			children = (
+				848ABCF31FD88CE3000FAAAB /* student.swift */,
+				848ABCF51FD88D2D000FAAAB /* studentsDB.swift */,
+				848ABCF71FD88F76000FAAAB /* masterStudent.swift */,
+				848ABCF91FD89358000FAAAB /* phdStudent.swift */,
+			);
+			path = Students;
+			sourceTree = "<group>";
+		};
+		84B722CA1FD9D2A800151EB0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84B722C81FD9CF4D00151EB0 /* ViewControllerUITableViewCell.swift */,
+				848ABCC61FD88CC7000FAAAB /* ViewController.swift */,
+				84B722CB1FD9DC6C00151EB0 /* NewStudentViewController.swift */,
+				84B722CD1FD9DC9D00151EB0 /* StudenDetailsViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +296,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B722CE1FD9DC9D00151EB0 /* StudenDetailsViewController.swift in Sources */,
 				848ABCC71FD88CC7000FAAAB /* ViewController.swift in Sources */,
+				84B722CC1FD9DC6C00151EB0 /* NewStudentViewController.swift in Sources */,
+				84B722C91FD9CF4D00151EB0 /* ViewControllerUITableViewCell.swift in Sources */,
 				848ABCC51FD88CC7000FAAAB /* AppDelegate.swift in Sources */,
+				848ABCFA1FD89358000FAAAB /* phdStudent.swift in Sources */,
+				848ABCF41FD88CE3000FAAAB /* student.swift in Sources */,
+				848ABCF81FD88F76000FAAAB /* masterStudent.swift in Sources */,
+				848ABCF61FD88D2D000FAAAB /* studentsDB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
